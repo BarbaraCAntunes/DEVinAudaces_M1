@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav{
+    overflow: hidden;
+    background-color:blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+nav a{
+    font-family: cursive;    
+    float: right;
+    display:block;
+    color: white;
+    text-align: right;
+    padding: 16px;
+    text-decoration: none;
+    transition: background 300ms ease-in-out;
+}
+
+nav a:hover{
+    background: green;
+    color: white;
+}
+
+nav img{
+    float: left;
+    padding: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: Verdana; font-size: 20px; color:rgb(235, 39, 39); text-align: center;
+    background-color: darkseagreen;
+    background-image: url(fundoh1.jpg);
+    background-repeat: no repeat;
+    background-size:cover;
+    background-position: bottom;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 70px;   
+}
+
+hr{
+    margin-bottom: 20px;
+    width: 1150px;
+   }
+
+body{
+    background-color:powderblue;
+}
+
+p{
+    font-family: verdana;
+    font-size: 14px;
+    line-height: normal;
+}
+
+button{
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 30px;
+} 
+
+h2{
+    font-family: Verdana; font-size: 20px; color:rgb(235, 39, 39); text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+iframe{
+border: 0;
+margin-top: 20px;
+}
+
+footer{
+    background-color:rgb(250, 253, 72);
+    bottom: 0;
+    position:sticky;
+}
+
+
+
