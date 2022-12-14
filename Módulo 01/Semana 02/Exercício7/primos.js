@@ -7,6 +7,7 @@ for (var i = 2; i <= 1000; i++) {
       primo = false;
       break;
     }
+   
 
   if (primo) {
     quantidade += 1;
