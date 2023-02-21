@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {GaleriaComponent} from '../components/galeria/galeria.component'
+import {GaleriaComponent} from '../components/galeria/galeria.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 @NgModule({
   declarations: [
-    AppComponent, 
-    GaleriaComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    GaleriaComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
